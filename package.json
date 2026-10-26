@@ -1,0 +1,23 @@
+{
+  "name": "aayuvora-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aayuvora backend API for Render",
+  "type": "module",
+  "main": "index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js",
+  "scripts": {
+    "start": "node index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js",
+    "check": "node --check index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js && node --check ocrService_sarvam_Aayuvora_updated.js && node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "twilio": "^6.1.0",
+    "mongodb": "^6.21.0"
+  }
+}
